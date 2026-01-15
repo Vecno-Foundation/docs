@@ -64,8 +64,9 @@ After setup, copy your wallet address for mining.
 
 Each Vecno miner requires these key settings:
 
-- **Miner Name** — Any descriptive name (e.g. `vecno-miner`)
+- **Miner Name** — Should auto-fill when you paste the installation URL (e.g. `vecno-miner`)
 - **Installation URL** — Provided by the miner or pool (e.g. GitHub release archive)
+- ** Hash Algorithm** - This should also auto-fill, but if it doesn't, check documentation to see what to select
 - **Wallet Template** — Most stratum miners use: `%WAL%.%WORKER_NAME%`  
   (Some may only need `%WAL%` — always check miner documentation)
 - **Pool** (stratum URL) or node info
@@ -114,7 +115,6 @@ This example uses **vecnopool.de** — a popular PPLNS pool with CUDA & OpenCL s
 1. Visit: https://vecnopool.de/
 2. Search for:
    - Your wallet address
-   - Your worker name
 
 You should see:
 - Hashrate
