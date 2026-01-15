@@ -23,7 +23,7 @@ All sensitive data (seed phrase + keys) is generated and stays only on your devi
 
 **This is what the clean interface looks like before you generate the wallet:**
 
-![Vecno Paper Wallet - Clean Frontend](assets/paperwallet_1.png)
+![Vecno Paper Wallet - Clean Frontend](assets/Paperwallet_1.png)
 
 3. **Generate your wallet**
    - Click **Generate New Wallet**
@@ -35,7 +35,7 @@ All sensitive data (seed phrase + keys) is generated and stays only on your devi
 
 **Example of what the generated paper wallet looks like (with seed phrase, addresses and QR codes):**
 
-![Vecno Paper Wallet - Generated Example](assets/paperwallet_2.png)
+![Vecno Paper Wallet - Generated Example](assets/Paperwallet_2.png)
 
 4. **Back up your seed phrase – this is critical!**
    - **Write the 24 words down by hand** on paper (never type them digitally)
