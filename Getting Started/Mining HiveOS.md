@@ -3,7 +3,15 @@
 This guide explains how to mine **Vecno** on **HiveOS** using any supported miner.  
 A worked example using **vecnopool.de** (PPLNS) is included below.
 
-## Step 1: Create a Vecno Wallet
+
+
+## Step 1: Update Kernel and Drivers
+
+Kernel >= 6.1 required. Use hive-replace to reinstall HiveOS with newer kernel (https://hiveon.com/knowledge-base/guides/hive_replace/)
+
+For cuda graphic cards run `nvidia-driver-update` to update to the most recent driver. For opencl run `amd-ocl-install 6.0 6.0` to install the required driver.
+
+## Step 2: Create a Vecno Wallet
 
 You **must** create a Vecno wallet before mining.
 
@@ -36,7 +44,7 @@ You **must** create a Vecno wallet before mining.
 
 After setup, copy your wallet address for mining.
 
-## Step 2: Add Wallet to HiveOS
+## Step 3: Add Wallet to HiveOS
 
 1. Open your **HiveOS** dashboard
 2. Go to **Wallets** → **Add Wallet**
@@ -46,7 +54,7 @@ After setup, copy your wallet address for mining.
    - **Name**: Vecno (or any name you prefer)
 4. Save
 
-## Step 3: Create a Flight Sheet (General)
+## Step 4: Create a Flight Sheet (General)
 
 1. Go to **Flight Sheets**
 2. Click **Create Flight Sheet**
@@ -60,7 +68,7 @@ After setup, copy your wallet address for mining.
 | Pool        | Configure in miner       |
 | Miner       | Custom Miner             |
 
-## Step 4: Custom Miner Configuration (General)
+## Step 5: Custom Miner Configuration (General)
 
 Each Vecno miner requires these key settings:
 
@@ -72,14 +80,14 @@ Each Vecno miner requires these key settings:
 - **Pool** (stratum URL) or node info
 - **Optional** extra arguments
 
-## Step 5: Apply the Flight Sheet
+## Step 6: Apply the Flight Sheet
 
 1. Save the flight sheet
 2. Go to **Workers**
 3. Apply the flight sheet to your rig(s)
 4. Wait 1–2 minutes for it to take effect
 
-## Step 6: Verify Mining
+## Step 7: Verify Mining
 
 - Hashrate should appear in HiveOS dashboard
 - Check your worker on the pool dashboard
@@ -99,7 +107,7 @@ This example uses **vecnopool.de** — a popular PPLNS pool with CUDA & OpenCL s
 | Miner Name                | vecnopool-miner                                      |
 | Installation URL          | https://github.com/voodoo-vecno/vecnopool-de-miner/releases/ <br>(Use the HiveOS-compatible archive, e.g. latest `.tar.gz`) |
 | Hash Algorithm            | vecno (leave blank if not selectable)                |
-| Wallet & Worker Template  | `%WAL%.%WORKER_NAME%`                                |
+| Wallet & Worker Template  | `%WAL%`                                              |
 | Pool URL                  | `vecnopool.de:6969`                                  |
 | Pass                      | `x`                                                  |
 | Extra Config Arguments    | (optional – usually leave empty)                     |
