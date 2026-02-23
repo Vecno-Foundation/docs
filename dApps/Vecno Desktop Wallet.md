@@ -12,8 +12,8 @@ It provides a user-friendly way to:
 
 ### Key Security Features
 - Your private keys never leave your device
-- **Payment Secret** — an additional passphrase you set during wallet creation/import.  
-  This **must be entered every time** you want to **send/transfer VE** — it adds strong extra protection against unauthorized transfers, even if someone gains access to your computer.
+- **Payment Secret** - an additional passphrase you set during wallet creation/import.  
+  This **must be entered every time** you want to **send/transfer VE** - it adds strong extra protection against unauthorized transfers, even if someone gains access to your computer.
 
 ### Why use the Desktop Wallet?
 - Full control with everyday convenience
@@ -36,7 +36,7 @@ It provides a user-friendly way to:
    - Launch the application
    - Choose **Create New Wallet** (recommended for new users) or **Import Wallet**
    - For **Create New Wallet**:  
-     The wallet generates a **24-word BIP-39 seed phrase** (your master recovery key). Write it down by hand — never screenshot or store digitally!
+     The wallet generates a **24-word BIP-39 seed phrase** (your master recovery key). Write it down by hand - never screenshot or store digitally!
    - For **Import Wallet**:  
      Select this option to recover an existing wallet using your 24-word seed phrase.
 
@@ -100,4 +100,4 @@ It provides a user-friendly way to:
 
    ![Import wallet screen with seed phrase input field](assets/Desktopwallet_9.png)
 
-**With the Payment Secret, your Vecno stays extra secure — even on a compromised device!**
+**With the Payment Secret, your Vecno stays extra secure - even on a compromised device!**

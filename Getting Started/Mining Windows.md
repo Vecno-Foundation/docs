@@ -1,6 +1,6 @@
 # Mining Windows
 
-This guide explains how to mine **Vecno** on **Windows** using the official miner. There is **no official pool** — only community-run (unofficial) pools are available.
+This guide explains how to mine **Vecno** on **Windows** using the official miner. There is **no official pool** - only community-run (unofficial) pools are available.
 
 **Key Notes**:
 - The official miner supports **NVIDIA GPUs** (CUDA), **AMD GPUs** (OpenCL), and optional CPU mining.
@@ -64,10 +64,10 @@ Use one of the community pools below.
 
 ### Example Configurations for start_mining.bat
 
-#### vecnopool.com (example)
+#### vecnopool.de (example)
 
 @echo off
-cmd /k "./vecno-miner --mining-address "vecno:YOUR_WALLET_ADDRESS_HERE" --stratum-server vecnopool.com --stratum-port 5555 --stratum-worker worker1"
+cmd /k "./vecno-miner --mining-address "vecno:YOUR_WALLET_ADDRESS_HERE" --stratum-server vecnopool.de --stratum-port 6969 --stratum-worker worker1"
 
 
 **Important:**
@@ -82,14 +82,13 @@ Add `--threads 8` (or your preferred number) to any of the lines above:
 
 Example:
 
-./vecno-miner --mining-address "vecno:YOUR_WALLET_ADDRESS_HERE" --stratum-server vecnopool.com --stratum-port 5555 --stratum-worker worker1 --threads 8
+./vecno-miner --mining-address "vecno:YOUR_WALLET_ADDRESS_HERE" --stratum-server vecnopool.de --stratum-port 6969 --stratum-worker worker1 --threads 8
 
 ### Community Pools
 
 | Pool              | Fee   | Notes                                                                 | Website                                      |
 |-------------------|-------|-----------------------------------------------------------------------|----------------------------------------------|
 | vecnopool.de      | 3%    | CUDA/OpenCL optimized – custom miner only                             | https://vecnopool.de                         |
-| vecnopool.com     | 2%    | Community PPLNS pool                                                  | https://vecnopool.com                        |
 | NinjaPool PPLNS   | 2%    | Community PPLNS pool                                                  | https://ninjaraider.com/vecno                |
 | NinjaPool Solo    | 2.5%  | Community solo pool                                                   | https://ninjaraider.com/vecno-solo           |
 

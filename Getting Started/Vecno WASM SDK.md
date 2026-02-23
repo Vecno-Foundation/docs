@@ -16,9 +16,9 @@ types will not be constrained by TypeScript type definitions.
 
 The SDK is currently separated into the following top-level categories:
 
-- **RPC API** — RPC API for the Vecnod using WebSockets.
-- **Wallet SDK** — Bindings for primitives related to key management and transactions.
-- **Wallet API** — API for the Vecno Wallet framework.
+- **RPC API** - RPC API for the Vecnod using WebSockets.
+- **Wallet SDK** - Bindings for primitives related to key management and transactions.
+- **Wallet API** - API for the Vecno Wallet framework.
 
 ## WASM32 SDK release packages
 

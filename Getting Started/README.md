@@ -2,7 +2,7 @@
 
 This repository contains practical tutorials, installation instructions, and developer resources to help you quickly get up and running on the **Vecno blockchain**.
 
-Whether you're setting up a full node, starting to mine, extending the RPC API, or integrating Vecno using the WASM SDK — these guides will walk you through the process step by step.
+Whether you're setting up a full node, starting to mine, extending the RPC API, or integrating Vecno using the WASM SDK - these guides will walk you through the process step by step.
 
 ## Table of Contents
 

@@ -25,6 +25,7 @@ To connect with the Vecno community, join the Discord [here](https://discord.gg/
 2. [dApps](dApps/README.md)
    * [Vecno Paper Wallet](dApps/Vecno%20Paper%20Wallet.md)
    * [Windows Desktop Wallet](dApps/Vecno%20Desktop%20Wallet.md)
+   * [Windows Mobile Wallet](dApps/Vecno%20Mobile%20Wallet.md)
 3. [About Vecno](About%20Vecno/README.md)
    * [Vision](About%20Vecno/Vision.md)
    * [Founders](About%20Vecno/Founders.md)

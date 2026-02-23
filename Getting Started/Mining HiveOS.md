@@ -72,11 +72,11 @@ After setup, copy your wallet address for mining.
 
 Each Vecno miner requires these key settings:
 
-- **Miner Name** — Should auto-fill when you paste the installation URL (e.g. `vecno-miner`)
-- **Installation URL** — Provided by the miner or pool (e.g. GitHub release archive)
+- **Miner Name** - Should auto-fill when you paste the installation URL (e.g. `vecno-miner`)
+- **Installation URL** - Provided by the miner or pool (e.g. GitHub release archive)
 - ** Hash Algorithm** - This should also auto-fill, but if it doesn't, check documentation to see what to select
-- **Wallet Template** — Most stratum miners use: `%WAL%.%WORKER_NAME%`  
-  (Some may only need `%WAL%` — always check miner documentation)
+- **Wallet Template** - Most stratum miners use: `%WAL%.%WORKER_NAME%`  
+  (Some may only need `%WAL%` - always check miner documentation)
 - **Pool** (stratum URL) or node info
 - **Optional** extra arguments
 
@@ -95,7 +95,7 @@ Each Vecno miner requires these key settings:
 
 ## Example: Vecno on HiveOS using vecnopool.de (PPLNS)
 
-This example uses **vecnopool.de** — a popular PPLNS pool with CUDA & OpenCL support.
+This example uses **vecnopool.de** - a popular PPLNS pool with CUDA & OpenCL support.
 
 - **Pool fee**: 3%
 - **Stratum URL**: `vecnopool.de:6969`
@@ -130,7 +130,7 @@ You should see:
 - PPLNS payouts (may take time to appear)
 
 **Important Notes**
-- PPLNS rewards are based on shares over time — variance is normal
+- PPLNS rewards are based on shares over time - variance is normal
 - Do **not** pool hop (it hurts your expected rewards)
 - First payouts may take several minutes/hours depending on hashrate & luck
 

@@ -2,7 +2,7 @@
 **Simple, secure offline cold storage for your Vecno**
 
 The Vecno Paper Wallet lets you create a completely offline wallet in your browser.  
-All sensitive data (seed phrase + keys) is generated and stays only on your device — nothing is sent to any server.
+All sensitive data (seed phrase + keys) is generated and stays only on your device - nothing is sent to any server.
 
 ### Why choose a paper wallet?
 - Maximum security for long-term storage
