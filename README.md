@@ -29,3 +29,4 @@ To connect with the Vecno community, join the Discord [here](https://discord.gg/
 3. [About Vecno](About%20Vecno/README.md)
    * [Vision](About%20Vecno/Vision.md)
    * [Founders](About%20Vecno/Founders.md)
+   * [Roadmap](About%20Vecno/Roadmap.md)
